@@ -1,0 +1,59 @@
+.content-img{
+	width: 100%;
+	min-height: 160px;
+	background:url(../images/banner1.jpg) no-repeat 0px 0px;
+	background-size: cover;
+	margin-top: 40px;
+}
+
+.video{
+	width:100%;
+    margin: 0px auto;
+}
+
+.video-content{
+	margin:0 auto;
+	width:1200px;
+	height: 709px;
+}
+
+
+.video-title{
+	width:200px;
+	margin:0 auto;
+	font-size: 24px;
+	text-align: center;
+	margin-top:40px;
+}
+
+.video-title:before{
+	width:34px;
+	height:14px;
+	border-bottom:3px solid #F896A9;
+	content:"";
+	display: block;
+	float:left;
+}
+
+.video-title:after{
+	width:34px;
+	height:14px;
+	border-bottom:3px solid #F896A9;
+	content:"";
+	display: block;
+	float:right;
+}
+
+.video-v{
+	margin:0 auto;
+	margin-top: 36px;
+	width:800px;
+	height:600px;
+}
+
+.video-v video{
+	width:800px;
+	height:600px;
+}
+		
+/*//video*/

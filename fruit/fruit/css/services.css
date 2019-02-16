@@ -1,0 +1,236 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+/*第一部分*/
+.services-one{
+    width: 100%;
+    height: 420px;
+}
+.services-one-a{
+    width: 1200px;
+    height: 420px;
+    margin: 0 auto;
+}
+.services-one-a>span{
+    display: block;
+    font-size: 24px;
+    width: 300px;
+    margin: 0px auto;
+    text-align: center;
+    margin-top: 20px;
+}
+.services-one-a>span::before{
+    content: "";
+    display: block;
+    float: left;
+    width: 34px;
+    height: 3px;
+    background: #F896A9;
+    margin-top: 15px;
+}
+.services-one-a>span::after{
+    content: "";
+    display: block;
+    float: right;
+    width: 34px;
+    height: 3px;
+    background: #F896A9;
+    margin-top: 15px;
+}
+.services-one-a>ul{
+    width: 276px;
+    height: 300px;
+    list-style: none;
+    float: left;
+    margin-top: 50px;
+    margin-left: 22px;
+}
+.services-one-a>ul>li:nth-of-type(1){
+    width: 83px;
+    height: 83px;
+    margin: 0 auto;
+}
+.services-one-a>ul>li:nth-of-type(2){
+    font-size: 16px;
+    margin-top: 20px;
+    color: #333333;
+}
+.services-one-a>ul>li:nth-of-type(3){
+    font-size: 12px;
+    letter-spacing: 0.5px;
+    line-height: 30px;
+    margin-top: 20px;
+    text-align: center;
+}
+/*第二部分*/
+.services-two{
+    background: url(../images/banner2.jpg) no-repeat;
+    height: 432px;
+    width: 100%;
+    min-width: 1248px;
+    background-size: cover; /*把背景图像扩展至足够大，以使背景图像完全覆盖背景区域*/
+}
+.services-one-b{
+    width: 1200px;
+    height: 420px;
+    margin: 0 auto;
+}
+.services-one-b>span{
+    display: block;
+    font-size: 24px;
+    width: 300px;
+    margin: 0px auto;
+    text-align: center;
+    padding-top: 20px;
+    color: #F896A9;
+}
+.services-one-b>span::before{
+    content: "";
+    display: block;
+    float: left;
+    width: 34px;
+    height: 3px;
+    background: #FFFFFF;
+    margin-top: 15px;
+}
+.services-one-b>span::after{
+    content: "";
+    display: block;
+    float: right;
+    width: 34px;
+    height: 3px;
+    background: #FFFFFF;
+    margin-top: 15px;
+}
+.services-one-b>div:nth-of-type(1){
+    font-size: 16px;
+    width: 1200px;
+    height: 88px;
+    color: #FFFFFF;
+    margin-top: 20px;
+    text-align: center;
+}
+.services-one-b>div:nth-of-type(2){
+    width: 1200px;
+    height: 270px;    
+}
+.services-one-left{
+    width: 300px;
+    height: 250px;
+    float: left;
+}
+.services-one-zhong{
+    width: 300px;
+    height: 250px;
+    float: left;
+    margin-left: 150px;
+}
+.services-one-right{
+    width: 300px;
+    height: 250px;
+    float: right;
+}
+.guanggao{
+    width: 280px;
+    height: 17px;
+    margin-top: 20px;
+    list-style: none;
+}
+.guanggao>img{
+    margin: auto 0px;
+    display: block;
+    float: left;
+}
+.guanggao>span{
+    font-size: 12px;
+    width: 244px;
+    height: 17px;
+    display: block;
+    margin-left: 10px;
+    color: #FFFFFF;
+    float: left;
+    transition: all 0.5s;
+}
+.guanggao>span:hover{
+    margin-left: 20px;
+    color: pink;
+}
+/*第三部分*/
+.services-there{
+    width: 100%;
+    height: 500px;
+}
+.services-there-w{
+    width: 1200px;
+    height: 420px;
+    margin: 0 auto;
+}
+.services-there-w>span{
+    display: block;
+    font-size: 24px;
+    width: 300px;
+    margin: 0px auto;
+    text-align: center;
+    margin-top: 40px;
+}
+.services-there-w>span::before{
+    content: "";
+    display: block;
+    float: left;
+    width: 34px;
+    height: 3px;
+    background: #F896A9;
+    margin-top: 15px;
+}
+.services-there-w>span::after{
+    content: "";
+    display: block;
+    float: right;
+    width: 34px;
+    height: 3px;
+    background: #F896A9;
+    margin-top: 15px;
+}
+.services-there-bottom{
+   width: 1200px;
+   height: 350px;
+   margin-top: 30px;
+}
+.services-there-bottom>ul{
+    list-style: none;
+    width: 400px;
+    height: 133px;
+    margin-top: 20px;
+    float: left;
+}
+.services-there-bottom>ul>li:nth-of-type(1){
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    background-color: #020202;
+    text-align: center;
+    line-height: 38px;
+    color: #FFFFFF;
+    display: inline-block;
+    float: left;
+    transition: all 0.5s;
+}
+.services-there-bottom>ul>li:nth-of-type(1):hover{
+    border-radius: 0px;
+    background: pink;
+}
+.services-there-bottom>ul>li:nth-of-type(2){
+    font-size: 16px;
+    color: #F896A9;
+    margin-top: 10px;
+    margin-left: 42px;
+}
+.services-there-bottom>ul>li:nth-of-type(3){
+    font-size: 12px;
+    letter-spacing: 1px;
+    width: 327px;
+    height: 85px;
+    display: inline-block;
+    margin-left: 42px;
+}
